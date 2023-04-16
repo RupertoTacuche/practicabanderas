@@ -28,7 +28,7 @@ const Home = () => {
           <input className='flex-1 outline-none text-xs' type="text" placeholder='search for a country'  />
         </div>
         <select onChange={handleChangeRegion} className='max-w-max p-4 rounded-md shadow-md shadow-gray-200 outline-none font-semibold'>
-            <option value=" ">All</option>
+            <option value="">All</option>
             <option value="Africa">Africa</option>
             <option value="America">America</option>
             <option value="Asia">Asia</option>
